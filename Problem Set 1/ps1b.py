@@ -22,6 +22,6 @@ while current_savings < portion_down_payment:
 
     if n % 6 == 0: #returns TRUE for every 6 months
         annual_salary += annual_salary * semi_annual_raise # a += 1 # a = a + 1
-        monthly_saving = (annual_salary / 12) * portion_saved
+        monthly_saving = (annual_salary / 12) * portion_saved # you need to reflect the new salary to the calculation inside the while loop
 
 print(n)
